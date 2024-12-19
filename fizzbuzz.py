@@ -11,5 +11,5 @@ def fizzbuzz(upTo):
             print(num, end=' ')
 
 if __name__ == "__main__":
-    upTo = 10
+    upTo = input("Enter Upto number: ")
     fizzbuzz(upTo)
